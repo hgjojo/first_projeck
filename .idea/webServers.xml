@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="15504f89-0653-4934-be79-31c5a3bbd8e8" name="jojo" url="http://127.0.0.1/project-sundian1-3_22">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\project-sundian1-3_22" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

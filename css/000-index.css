@@ -1,0 +1,188 @@
+/*1 banner */
+	.banner{height:450px;width:1200px;}
+	.banner-left{float:left}
+	.banner-left .aCom{
+		float:left;height:40px;width:250px;
+		line-height:40px;
+		text-align:center;
+		font-size:16px;
+		color:white;	
+		background-color:#33353D;
+	}
+	.banner-left li{
+		margin-top:20px;font-size:14px;
+		line-height:20px;margin-left:60px;
+		}
+
+	.banner-right{width:900px;height:40px;float:left}
+	.banner-right>ul.banner-right-top{
+		width:950px;
+		height:40px;
+		display:flex;
+		justify-content:space-between;
+		line-height:40px;
+		font-size:16px;
+		background-color:#33353D;
+		color:white;		
+	}	
+	.banner-pic{height:380px;width:950px;overflow: hidden;position:relative;}
+	.banner-pic:hover{}
+	.banner-pic .banner-img{display:flex;justify-content:space-between;position: absolute;left:0;}
+	.banner-pic img{height:380px;width:950px;}
+	.banner a.ck-slide{
+   position:absolute;
+    top:157px;
+    width:35px;
+    height:70px;
+    border-radius:3px;
+    background:#000;
+    opacity:0.15;
+    transition:all .3s linear;
+}
+.banner-pic a.ck-left{
+    left:5px;  position:absolute;
+    background: #000 url(../image/banner/index_n.png) no-repeat center center;opacity:0;
+}
+.banner-pic a.ck-right{
+    right:5px; position:absolute;
+    background:#000 url(../image/banner/index_p.png) no-repeat center center;opacity:0;
+}
+.banner-pic a.ck-slide.hover{
+    opacity:0.3;
+}
+.banner-pic ul.indicators{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    margin-left:-34px;
+}
+.banner-pic ul.indicators li{
+    width:12px;
+    height:12px;
+    background:#fff;
+    border-radius:50%;
+    float:left;
+    margin-right:5px;
+    transition:all .2s linear;
+}
+.banner-pic ul.indicators li:hover,.banner-pic ul.indicators li.hover{
+    cursor:pointer;
+    background-color:#0AA1ED;
+}
+	/* 2、 楼层1 推荐 */
+    .floor-1{padding-top:80px;}
+	.floor-1 div.recommend{font-size: 24px;font-weight:600;color:black;}
+	.floor-1>.floor-top>p{float:left;height:30px;text-align:center;border-bottom:1px solid #9D9D9D}
+	.floor-top{font-size: 14px;text-align:center;line-height:30px;padding-top: 10px;}
+	.floor-top a{height:30px;float:right; margin-left:40px;}		
+	.floor-top:after{content:"";display:block;clear:both}/*清除当前div区域浮动*/
+	.products{width:1200px;height:770px;display:flex;flex-wrap:wrap;justify-content:space-between;}
+	.products ul>li{width:290px;height:350px;}
+	.products ul>li>div{ height:350px }
+	/*.products ul{display:flex;flex-wrap:wrap;justify-content:space-between;}*/
+	.products img{width:215px;height:215px;margin-left:35px;}
+	.products h4{height:30px;line-height:30px;padding:20px;text-align: center}
+	.products p{width:270px;height:30px;text-align: center}
+	.products div.price{color:red;font-size: 14px;line-height: 30px;font-weight:600;text-align: center}
+	/* 3、楼层2 手机 */
+	.discovery{width:1200px;height:700px;}
+	.discovery:after{content:"";display:block;clear:both}
+	.discovery-top-font{font-size: 24px;font-weight:600;color:black}
+	.discovery-top p{float:left;font-size:16px;text-align:center;border-bottom:1px solid #9D9D9D}
+	.discovery-top a{float:right;margin-left:40px;font-size:16px;text-align:center}
+	/* 3、楼层2 图片 */
+	.discovery-left{width:600px;height:600px;float:left;clear:both}/* 左 */
+	.discovery-left-top{width:600px;height:360px;}
+	.discovery-left-bottom{width:600px;height:230px;}
+	.discovery-left-bottom ul{display:flex;justify-content:space-between;margin-top:20px;}
+	.discovery-left-bottom img{width:290px;height:230px;}
+	.discovery-right{float:right;}/*右*/
+	.discovery-right-top{width:595px;height:190px;}
+	.discovery-right-top ul{display:flex;justify-content:space-between;margin-left:5px;}
+	.discovery-right-top img{width:290px;height:190px;margin-left:5px;}
+	.discovery-right-middle{width:595px;height:205px;}
+	.discovery-right-middle img{width:580px;height:190px;margin-top:15px;margin-left:15px;}/* 中  */
+	.discovery-right-bottom{width:595px;height:195px;}
+	.discovery-right-bottom img{width:293px;height:195px;}
+	.discovery-right-bottom ul{display:flex;justify-content:space-between;margin-left:10px;margin-top:15px;}
+	 /* 4、楼层3 book */
+	 .Man{width:1200px;height:700px;margin-top:80px;}
+	 .Man:after{content:"";display:block;clear:both}
+	.Man-font{font-size: 24px;font-weight:600;color:black}	
+	.Man-top p{float:left;font-size:16px;text-align:center;border-bottom:1px solid #9D9D9D}
+	.Man-top a{float:right;margin-left:40px;font-size:16px;text-align:center}
+	/* 4、楼层3 图片 */
+	.Man-left{width:600px;height:600px;float:left;clear:both}/* 左 */
+	.Man-left-top{width:600px;height:360px;}
+	.Man-left-top img{width:600px;height:360px;}
+	.Man-left-bottom{width:600px;height:230px;}
+	.Man-left-bottom ul{display:flex;justify-content:space-between;margin-top:20px;}
+	.Man-left-bottom img{width:290px;height:230px;}
+	.Man-right{float:right;}/*右*/
+	.Man-right-top{width:595px;height:190px;}
+	.Man-right-top ul{display:flex;justify-content:space-between;margin-left:5px;}
+	.Man-right-top img{width:290px;height:190px;margin-left:5px;}
+	.Man-right-middle{width:595px;height:205px;}
+	.Man-right-middle img{width:580px;height:190px;margin-top:15px;margin-left:15px;}/* 中  */
+	.Man-right-bottom{width:595px;height:195px;}
+	.Man-right-bottom img{width:293px;height:195px;}
+	.Man-right-bottom ul{display:flex;justify-content:space-between;margin-left:10px;margin-top:15px;}
+	/* 5、楼层4 家 */
+	.Home{margin-top:80px;}
+	.Home:after{content:"";display:block;clear:both}
+	.Home-font{font-size:24px;font-weight:600;color:black}	
+	.Home-top p{float:left;font-size:16px;text-align:center;border-bottom:1px solid #9D9D9D}
+	.Home-top a{float:right;margin-left:40px;font-size:16px;text-align:center}
+	/* 5、楼层4 图片 */
+	.Home-left{width:600px;height:600px;float:left;clear:both}/* 左 */
+	.Home-left-top{width:600px;height:360px;}
+	.Home-left-top img{width:600px;height:360px;}
+	.Home-left-bottom{width:600px;height:230px;}
+	.Home-left-bottom ul{display:flex;justify-content:space-between;margin-top:20px;}
+	.Home-left-bottom img{width:290px;height:230px;}
+	.Home-right{float:right;}/*右*/
+	.Home-right-top{width:595px;height:190px;}
+	.Home-right-top ul{display:flex;justify-content:space-between;margin-left:5px;}
+	.Home-right-top img{width:290px;height:190px;margin-left:5px;}
+	.Home-right-middle{width:595px;height:205px}
+	.Home-right-middle img{width:580px;height:190px;margin-top:15px;margin-left:15px;}/* 中  */
+	.Home-right-bottom{width:595px;height:195px;}
+	.Home-right-bottom img{width:293px;height:195px;}
+	.Home-right-bottom ul{display:flex;justify-content:space-between;margin-left:10px;margin-top:15px;}
+	/*6、楼层5 味 */
+	.Wei-top:after{content:"";display:block;clear:both}
+	.Wei-font{font-size:24px;font-weight:600;color:black}
+	.Wei-top p{float:left;font-size:16px;text-align:center;border-bottom:1px solid #9D9D9D}
+	.Wei-top a{float:right;margin-left:40px;font-size:16px;text-align:center}
+	/* 6、楼层5 图 */
+	.Wei{margin-top:80px;}
+	.Wei-pic{width:1200px;height:500px;}
+	.Wei-pic ul{width:1200px;height:500px;display:flex;flex-wrap:wrap;justify-content:space-between;margin-top:15px;}
+	.Wei-pic ul li{width:585px;height:250px}
+	.Wei-pic img{width:585px;height:250px}
+	/* 7、楼层6 四季 */
+	.seasons{margin-top:80px;}
+	.seasons-top:after{content:"";display:block;clear:both}
+	.seasons-font{font-size:24px;font-weight:600;color:black}
+	.seasons-top p{float:left;font-size:16px;text-align:center;border-bottom:1px solid #9D9D9D}
+	.seasons-top a{float:right;margin-left:40px;font-size:16px;text-align:center}
+	/* 7、楼层6 图 */
+	.seasons-left{float:left}
+	.seasons-left-top{width:590px;height:360px;}/* 590*360 */ 
+	.seasons-left-bottom img{width:270px;height:325px;}/* 270*325 */
+	.seasons-left-bottom ul{width:590px;height:325px;display:flex;flex-wrap:wrap;justify-content:space-between;}
+	.seasons-right{width:590px;height:360px;float:right}
+	.seasons-right ul{display:flex;flex-wrap:wrap;justify-content:space-between;}
+	.seasons-right img{width:270px;height:325px;}
+	/* 要选ul>li下的第三、第四个子元素 ?????*/
+	/* 8、楼层7 特价 */
+	.Sales-OFF{margin-top:80px;}
+	.seasons:after{content:"";display:block;clear:both}
+	.Sales-OFF-font{font-size:24px;font-weight:600;color:black}
+	.Sales-OFF-top p{float:left;font-size:16px;text-align:center;border-bottom:1px solid #9D9D9D}
+	.Sales-OFF-top a{float:right;margin-left:40px;font-size:16px;text-align:center}
+	/* 8、楼层7 图 */
+	.Sales-OFF-top:after{content:"";display:block;clear:both}
+	.Sales-OFF-pic ul{display:flex;flex-wrap:wrap;justify-content:space-between;}
+	.Sales-OFF-pic ul li{width:232px;height: 250px;text-align:center}
+	.Sales-OFF-pic img{width:140px;height:140px;text-align:center}

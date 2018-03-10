@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表-顺电网上商城</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/000-header.css">
+    <link rel="stylesheet" href="css/000-products.css">
+</head>
+<body>
+<div class="main">
+    <!--  1  头部引入 -->
+    <header id="header"></header>
+    <!--2、页面主体内容-->
+    <div id="product-list">
+        <!--1、左：商品列表(750px)-->
+        <div id="plist">
+            <p class="title">手机</p>
+           <!--第一张图片-->
+            <ul id="show-list">
+             <!--<li>-->
+                  <!--<a href="000-product_details.html?lid=${p.lid}">-->
+                    <!--<img src="${p.md}" alt="">-->
+                  <!--</a>-->
+                  <!--<p>-->
+                    <!--<span class="price">¥${p.price}</span>-->
+                    <!--<a href="000-product_details.html?lid=${p.lid}">${p.title}</a>-->
+                  <!--</p>-->
+                  <!--<div data-lid="${p.lid}">-->
+                    <!--<span class="reduce">-</span>-->
+                    <!--<input type="text" value="1">-->
+                    <!--<span class="add">+</span>-->
+                    <!--<a href="javascript:;" class="addCart">加入购物车</a>-->
+                  <!--</div>-->
+                <!--</li>-->
+            </ul>
+
+            <!--页码-->
+            <div id="pages">
+               <a href="javascript:;" class="previous">上一页</a>
+                <a href="javascript:;" class="current">1</a>
+                <a href="javascript:;">2</a>
+                <a href="javascript:;" class="next">下一页</a>
+            </div>
+        </div>
+        <!--2、右：商家公告(190px)-->
+        <div id="notice-board">
+            <p class="title">
+                <img src="" alt="">
+                商家公告
+            </p>
+            <div class="content">
+                <p>本产品全国联保，享受三包服务，质保期为：保修1年</p>
+                <p>在顺电购买商品，更可享受30天退换货（自购买日起计算）</p>
+                <p>顺电售后电话：400-6788-688（09:00-20:00 周一至周日）</p>
+            </div>
+
+            <div id="cart">
+                <!-- 1、购物车标题 -->
+                <p class="title">
+                    <span>购物车</span>
+                    <a href="#">清空</a>
+                </p>
+
+                <div class="cart_content">
+                    <!-- 1、内容1 -->
+                    <!--<div class="item">-->
+                      <!--<span><a href="000-product_details.html?lid=${item.lid}" title="${item.title}">${item.title}</a></span>-->
+                      <!--<div data-iid="${item.iid}">-->
+                        <!--<span class="reduce">-</span>-->
+                        <!--<input type="text" value="${item.count}">-->
+                        <!--<span class="add">+</span>-->
+                      <!--</div>-->
+                      <!--<p>-->
+                        <!--<span>¥${(item.price*item.count).toFixed(2)}</span>-->
+                      <!--</p>-->
+                    <!--</div>-->
+                </div>
+                <!-- 3、购物车结算 -->
+                <div class="cart-result">
+            <span>
+              <img src="image/1F-recommend/car.png">
+              ¥<span class="result" id="total">0.00</span>
+            </span>
+                    <a href="#">去结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--4、页面底部-->
+    <iframe src="000-footer.html" frameborder="0" id="footer"></iframe>
+</div>
+<script src="js/ajax.js"></script>
+<script src="js/000-head.js"></script>
+<script src="js/000-products.js"></script>
+</body>
+</html>

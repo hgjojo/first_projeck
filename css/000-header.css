@@ -1,0 +1,124 @@
+#header{		
+	margin:0 auto;
+	margin-top:50px;
+	width:1200px;
+	height:100px;
+}
+#search{
+	width:700px;
+	height:75px;
+	padding-left:20px;
+	float:left;	
+}
+#img-sundian{float:left;}
+
+#search div img{
+	width:40px;
+	height:40px;
+	border:none;
+	float:left;
+}
+#search div input{
+	width:560px;
+	height:40px;
+	border:1px solid #CCCCCC;
+	box-sizing:border-box;
+	float:left;
+
+}
+
+#search div a.blue-search{
+	width:100px;
+	height:40px;
+	font-size: 20px;
+	text-decoration:none;	
+	border-radius:2px;
+	box-sizing:border-box;
+	padding:10px 30px;
+	background-color:#0AA1ED;
+	color:white;
+	float:left;
+}
+#search #top-search.fixed{position:fixed;z-index:100;top:0;width:100%;}
+#top-search{width:701px;height:50px;}
+#top-a{
+	clear:both;
+	width:700px;
+
+}
+#top-a a{	
+	display:inline-block;	
+	text-decoration:none;
+	font-size:14px;
+	color:#959595;
+}
+#top-right{
+	width:320px;
+	height:75px;	
+	float:right}
+/*#top-right a{*/
+	/*float:right;*/
+	/*width:82px;*/
+	/*height:42px;*/
+	/*text-decoration:none;*/
+	/*border:1px solid #E1E1E1;*/
+	/*box-sizing:border-box;*/
+	/*font-size:20px;*/
+	/*border-radius:2px;*/
+	/*padding:6px 20px;*/
+	/*margin:0px 10px;*/
+	/*color:#616161;		*/
+/*}*/
+/*购物车图标*/
+#top-right #car{
+	float:right;
+	width:64px;
+	height:42px;
+	text-decoration:none;
+	border:1px solid #E1E1E1;
+	box-sizing:border-box;
+	font-size:20px;
+	border-radius:2px;
+	padding:6px 20px;
+
+	color:#616161;}
+/*登陆与注册按钮*/
+#loginList{display:block}
+#welcomeList{display:none;float:left}
+#loginList a{
+float:right;
+	width:82px;
+	height:42px;
+	text-decoration:none;
+	border:1px solid #E1E1E1;
+	box-sizing:border-box;
+	font-size:20px;
+	border-radius:2px;
+	padding:6px 20px;
+	margin:0px 10px;
+	color:#616161;
+}
+#loginList a.login{
+	background-color:#FC3538;
+	width:82px;
+	color:white;
+}
+#welcomeList a{
+	/*width:250px;*/
+	height:40px;
+	float:left;
+	font-size:20px;
+	left:0;
+	line-height:42px;
+	display:block;
+	padding-left:35px;
+}
+/*#welcomeList>ul{display:flex;justify-content: flex-start;width:200px;height:42px;}*/
+/*#welcome a{*/
+	/*text-decoration:none;*/
+	/*border:none;*/
+	/*box-sizing:border-box;*/
+	/*font-size:15px;*/
+	/*padding:6px 20px;*/
+	/*margin:0px 10px;*/
+/*}*/

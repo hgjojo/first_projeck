@@ -1,0 +1,58 @@
+/*1 banner */
+.banner{height:450px;width:1200px;}
+	.banner-left{float:left}
+	.banner-left .aCom{
+		float:left;height:40px;width:250px;
+		line-height:40px;
+		text-align:center;
+		font-size:16px;
+		color:white;	
+		background-color:#33353D;
+	}
+	.banner-left li{
+		margin-top:20px;font-size:14px;
+		line-height:20px;text-align:center;
+		}
+
+	.banner-right{width:950px;height:40px;float:left}
+	.banner-right>ul.banner-right-top{
+		width:950px;
+		height:40px;
+		display:flex;
+		justify-content:space-between;
+		line-height:40px;
+		font-size:16px;
+		background-color:#33353D;
+		color:white;		
+	}	
+	/* 登录 */
+	.banner-bottom-left{float:left;width:800px;height:410px;}
+	.banner-bottom-left img{width:800px;height:410px;}
+	.login h1{margin:50px 0 0 20px;}
+	.login{float:right;width:400px;height:410px;}
+	.login>.uname,.upwd,.lg{text-align:center}
+	.login>.uname input{width:300px;height:40px;margin-top:20px;}
+	.login>.upwd input{width:300px;height:40px;margin-top:20px;}
+	.login>.uyzm{width:400px;display:flex;justify-content:space-between}
+	.login>.uyzm img{margin-top:20px;margin-left:20px;}
+	.login>.uyzm input{
+			width:150px;
+			height:40px;
+			margin-top:20px;
+			margin-left:76px;
+			}
+	.login>.lg input{
+			width:350px;
+			height:46px;
+			margin-top:20px;
+			background-color:#0AA1ED;
+			box-sizing:border-box;
+			border:none;
+			font-size: 20px;
+			color:white;
+			}
+	.login>.uyzm{width:100px;}
+	.login img{height:46px;}
+	/*注册*/
+.login .uphone{text-align:center}
+.login .uphone input{width:300px;height:40px;margin-top:20px;}

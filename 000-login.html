@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/000-header.css">
+	<link rel="stylesheet" href="css/000-footer.css">
+	<link rel="stylesheet" href="css/000-login.css">
+  <title>登录页面</title>
+</head>
+<body>
+	<div class="main">
+		<!--  1  头部引入 -->
+		<header id="header"></header>
+		<!--<iframe src="000-header.html" frameborder="0" id="header"></iframe>-->
+		<!-- 2 banner  -->
+		<div class="banner">
+			<!-- 2.1 banner左上 -->
+			<div class="banner-left">
+				<a href="#" class="aCom">所有商品分类</a>
+			</div>
+			<!-- 2.2 banner右上 -->
+			<div class="banner-right">
+				<ul class="banner-right-top">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">新品</a></li>
+					<li><a href="#">家电</a></li>
+					<li><a href="#">Man</a></li>
+					<li><a href="#">限时特惠</a></li>
+					<li><a href="#">品牌街</a></li>
+					<li><a href="#">Apple</a></li>
+					<li><a href="#">主题馆</a></li>
+					<li><a href="#">以旧换新</a></li>
+					<li><a href="#">积分商城</a></li>
+				</ul>
+			</div>
+			<div class="banner-bottom">
+				<!-- 2.3 banner下 图片 -->
+				<div class="banner-bottom-left">
+					<img src="image/login/1.jpg" alt="">
+				</div>
+				<form class="login">
+				
+						<h1>用户登录</h1>
+						<div class="uname">
+							<img src="image/login/yhm.png" alt="">
+							<input id="uname" type="text" placeholder="请输入用户名">
+						</div>
+						<div class="upwd">
+							<img src="image/login/mm.png" alt="">
+							<input id="upwd" type="password" placeholder="请输入密码">
+						</div>	
+						<div class="uyzm">				
+								<input id="code" type="text" placeholder="请输入验证码">
+								<img src="data/user/000_yzm.php" title="看不清?点击换下一张" id="yzm"/>
+						</div>		
+						<div class="lg">
+							<input id="btn" type="button" value="登录">
+						</div>
+				
+				</form>
+			<div>
+			
+			</div>
+		</div>
+		<!-- 底部引入 -->
+		<iframe src="000-footer.html" frameborder="0" id="footer"></iframe>
+	</div>
+	<script src="js/ajax.js"></script>
+	 <script src="js/jquery.js"></script>
+	<script src="js/000-head.js"></script>
+	 <script src="js/000-login.js"></script>	
+</body>
+</html>
